@@ -8,7 +8,7 @@ class Plant extends React.Component {
     render() {
         return (
             <div>
-                <h2>This is Plant Component!</h2>
+                <h2>Plant type is {this.state.type}</h2>
                 <button
                 type="button"
                 onClick={this.changeType}>
